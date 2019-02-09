@@ -1,0 +1,81 @@
+body, html {
+  height: 100%;
+}
+.bg { 
+  /* The image used */
+  background-image: url("../WebsiteProject/images/abstract-art-artistic-1103970.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.primary{
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: wheat;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.summary{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color:whitesmoke;
+}
+.summary span{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: white;
+   
+}
+.first_story{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.background_title{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color:whitesmoke;
+}
+.non_tech_jobs li{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;  
+    font-weight: bold;
+    color:whitesmoke; 
+}
+
+.non_tech_jobs p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;  
+}
+.tech_job li{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;
+    font-weight: bold;
+}
+
+.tech_job h2{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;
+    font-weight: bold;
+}
+}
+table, th, td{
+    border: 2px solid black;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    box-align: center
+}
