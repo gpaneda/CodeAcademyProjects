@@ -90,6 +90,32 @@ h2 {
     color: brown;
     text-align: center;
 }
+.interact{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:black;
+}
+.intuit{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:black;
+}
+.palm{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:black;
+}
+.netflix{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:black;
+}
+.ujet{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;
+}
+
 /* unvisited link */
  a:link {
     color: red;
