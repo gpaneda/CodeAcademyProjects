@@ -13,14 +13,12 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .primary{
     font-family: Roboto, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: wheat;
     border-radius: 10px;
-    padding: 20px 30px;
 }
 .summary{
     font-family: Roboto, sans-serif;
@@ -32,10 +30,7 @@ body, html {
     font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 15px;
-    border-radius: 6px;
-    padding: 10px 20px;
-    color: white;
-   
+    color: white; 
 }
 .first_story{
     font-family: Roboto, sans-serif;
@@ -53,29 +48,40 @@ body, html {
     font-weight: bold;
     color:whitesmoke; 
 }
-
 .non_tech_jobs p{
     font-family: Roboto, sans-serif;
     font-size: 18px; 
     color:white;  
 }
-.tech_job li{
+.tech_job{
     font-family: Roboto, sans-serif;
     font-size: 18px; 
     color:white;
     font-weight: bold;
 }
-
-.tech_job h2{
+.skill_set ul{
     font-family: Roboto, sans-serif;
     font-size: 18px; 
     color:white;
-    font-weight: bold;
+    display: inline-block;
+    text-align: left;
 }
-}
-table, th, td{
-    border: 2px solid black;
+.skill_summary{
     font-family: Roboto, sans-serif;
-    font-size: 20px;
-    box-align: center
+    font-size: 25px; 
+    color:white;
+    text-align: center;
+}
+.tech_skills ul{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;
+    display: inline-block;
+    text-align: left;
+}
+.tech_list{
+    font-family: Roboto, sans-serif;
+    font-size: 25px; 
+    color:white;
+    text-align: center;
 }
