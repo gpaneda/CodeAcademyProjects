@@ -62,7 +62,13 @@ body, html {
 h2 {
     font-family: Roboto, sans-serif;
     font-size: 20px; 
-    color: white;  
+    color: rgb(165, 48, 48);  
+   }
+
+.interact h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 20px; 
+    color: rgb(56, 177, 159);  
    }
 .skill_set ul{
     font-family: Roboto, sans-serif;
@@ -115,6 +121,7 @@ h2 {
     font-size: 18px; 
     color:white;
 }
+
 /* unvisited link */
  a:link {
     color: red;
