@@ -46,6 +46,11 @@ body, html {
     color: rosybrown;  
 }
 .job_links ul{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
 
 .first_story{
     font-family: Roboto, sans-serif;
