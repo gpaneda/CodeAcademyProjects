@@ -15,6 +15,9 @@ body, html {
   overflow: scroll;
   height: 1000px;
 }
+
+/* Title Header */
+
 .primary{
     font-family: Roboto, sans-serif;
     font-size: 30px;
@@ -34,6 +37,16 @@ body, html {
     font-size: 15px;
     color: white; 
 }
+
+
+/* Technology Section */
+.tech_job {
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color: rosybrown;  
+}
+.job_links ul{
+
 .first_story{
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -68,7 +81,9 @@ h2 {
 .interact h2 {
     font-family: Roboto, sans-serif;
     font-size: 20px; 
-    color: white;  
+
+    color: rgb(56, 177, 159);  
+
    }
 .skill_set ul{
     font-family: Roboto, sans-serif;
@@ -96,6 +111,26 @@ h2 {
     color: brown;
     text-align: center;
 }
+
+/* Other Experiences */
+.other_experiences{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color:whitesmoke;
+}
+.non_tech_jobs li{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;  
+    color:whitesmoke; 
+}
+.non_tech_jobs p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;  
+}
+
+/* Images */
+
 .interact{
     font-family: Roboto, sans-serif;
     font-size: 18px; 
@@ -120,6 +155,14 @@ h2 {
     font-family: Roboto, sans-serif;
     font-size: 18px; 
     color:white;
+}
+
+.images{
+    position: relative;
+    top: 20px;
+    left: 400px;
+    bottom: 40px;
+    color: blanchedalmond;
 }
 
 /* unvisited link */
