@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../Users/gerardopaneda/Library/Fonts") format('truetype');
+}
+body, html {
+  height: 100%;
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important;
+  font-family: "Geneva Regular", sans-serif;
+  font-size: 20px; 
+  color:whitesmoke;
+  display: inline-block;
+  text-align: left;
+  line-height: 2;  
+  /* The image used */
+  background-image: url("../index.3/images/beach-dawn-dusk-1144176.jpg");
+  /*background-image: url("../netflix_backgroung.jpg");*/
+  /*background-image: url("../index.3/Netflix_background.jpg");*/
+    /* Full height */
+  height: 250%; 
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: scroll;
+  height: 1200px;
+
+}
