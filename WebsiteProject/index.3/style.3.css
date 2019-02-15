@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../Users/gerardopaneda/Library/Fonts") format('truetype');
+}
+body, html {
+  height: 100%;
+  max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("../index.3/images/beach-dawn-dusk-1144176.jpg");
+
+  /* Full height */
+  height: 250%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: scroll;
+  height: 1200px;
+}
+
+/* Title Header */
+
+.primary{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+    border-radius: 10px;
+}
+.summary{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color:whitesmoke;
+    display: grid;
+}
+.summary span{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: white; 
+}
+
+
+/* Technology Section */
+.tech_job {
+    font-family: Roboto, sans-serif;
+    font-size: 30px; 
+    color: brown; 
+    text-align: center; 
+}
+.first_story{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.background_title{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color:whitesmoke;
+}
+.non_tech_jobs li{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;  
+    color:whitesmoke; 
+}
+.non_tech_jobs p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color:white;  
+}
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 20px; 
+    color: rgb(165, 48, 48);  
+   }
+
+.interact h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 20px; 
+
+    color: rgb(56, 177, 159);  
+
+   }
+.skill_set ul{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 18px; 
+    color:white;
+    display: inline-block;
+    text-align: left;
+    line-height: 2;  
+    max-width: 100%
+}
+.skill_summary{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 25px; 
+    color:brown;
+    text-align: center;
+    line-height: 2;
+
+}
+.tech_skills ul{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 18px; 
+    color: white;
+    display: inline-block;
+    text-align: left;
+    line-height: 2;   
+}
+.tech_list{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 25px; 
+    color: brown;
+    text-align: center;
+    
+}
+.click_icon{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 25px; 
+    color: blue;
+    text-align: center;
+}
+
+/* Other Experiences */
+.other_experiences{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 18px;
+    color:whitesmoke; 
+}
+.non_tech_jobs li{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 18px;  
+    color:whitesmoke; 
+    line-height: 2;     
+}
+.non_tech_jobs p{
+    font-family: "Geneva Regular", sans-serif;
+    font-size: 18px; 
+    color:white;
+}
+
+/* Images */
+.images{
+    position: float;
+    top: 20px;
+    left: 400px;
+    right: 400px;
+    bottom: 40px;
+    color: blanchedalmond;
+}
+
+img{
+    border-radius: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
