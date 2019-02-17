@@ -1,4 +1,11 @@
 
+/*body, html {
+  height: 100%;
+  max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+}*/
+
 .grid {
     display: grid;
 
@@ -10,6 +17,7 @@
   position: float;
   height: 100px;
   padding-top: 1px;
+  
 }
 
 h1{
@@ -29,11 +37,9 @@ main {
   grid-auto-rows: 500px;
   justify-self: center;
   align-self: center;
-  /*justify-items: center;*/
-  justify-content: space-between;
-  /*align-items: flex-start;*/
-  height: 1600px;
-  align-content: flex-start;
+  height: auto;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 h2 {
@@ -48,7 +54,7 @@ h2 {
 }
 
 img {
-  width: 75%;
+  width: 60%;
   height: auto;
   border-radius: 20px;
   padding: 2px;
@@ -59,7 +65,7 @@ img {
 }
 
 .description {
-  font-family: "Work Sans";
+  font-family: "Roboto";
   font-size: 15px;
   font-weight: 300;
   line-height: 1.29;
@@ -83,5 +89,6 @@ img {
 }
 
 footer {
-  margin-top: 300px;
+  margin-top: 100px;
+
 }
