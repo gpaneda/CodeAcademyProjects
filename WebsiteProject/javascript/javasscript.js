@@ -122,3 +122,63 @@ switch (athleteFinalPosition) {
         console.log('No medal awarded.')
         break;
 }
+
+//Function Declarations
+function getReminder() {
+    console.log('Water the plants');
+}
+function greetInSpanish() {
+    console.log('Buenas Tardes');
+}
+getReminder(); //Calling a function
+greetInSpanish(); //Calling a function
+
+//Functions with parameters
+function wakeUp(name) {
+    console.log('Wake up ' + name + ' ! Time to go to work');
+}
+
+wakeUp('Gerry');
+
+//Helper functions - function that can be called by other functions
+function monitorCount(rows, columns) {
+    return rows * columns;
+}
+
+function costOfMonitors(rows, columns) {
+    return monitorCount(rows, columns) * 200;
+}
+
+const totalCost = costOfMonitors(5, 4);
+
+console.log(totalCost);
+
+//Function Expression - use of anonymous function within an expression
+const plantNeedsWater = function (day) {
+    if (day === 'Wednesday') {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+console.log(plantNeedsWater('Tuesday'));
+
+//Arrow Function - replaces the name function when creating one
+const plantNeedsWater = (day) => {
+    if (day === 'Wednesday') {
+        return true;
+    } else {
+        return false;
+    }
+};
+
+//Concise body arrow function
+const plantNeedsWater = (day) => {
+    return day === 'Wednesday' ? true : false;
+};
+
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;;
+    
+}
