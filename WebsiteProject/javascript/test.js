@@ -12,4 +12,4 @@ promise.then(function (title) {
     console.log(title);
 });
 
-browser.quit();
+//browser.quit();
